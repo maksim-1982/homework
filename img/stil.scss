@@ -1,7 +1,5 @@
 @import "vars";
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -52,11 +50,8 @@ body {
       padding-bottom: 48px;
       max-width: 720px;
     }
-  }
-    .button{
-      display: inline-block;
-      text-align: center;
-      padding-top: 16px;
+
+    &__btn{
       border: 1px solid $color-black;
       border-radius: 60px;
       background: $color-black;
@@ -70,13 +65,11 @@ body {
         color: $color-black;
         border: 1px solid rgb(0, 0, 0);
        }
-    
+    }
   }
   .footer-top{
-    
+ 
     &__nav{
-      display: flex;
-      gap: 51px;
       border: 1px solid rgba(255, 255, 255, 0.2);
       background: $color-green;
       height: 90px;
@@ -84,6 +77,12 @@ body {
       position: absolute;
       bottom: 0;
       padding: 27px;
+    }
+
+    &__nav-list{
+      list-style-type: none;
+      display: flex;
+      gap: 51px;
     }
 
     &__nav-link{
@@ -301,6 +300,3 @@ body {
     }
 
   }
-
-
-  @import "mobile";

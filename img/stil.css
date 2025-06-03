@@ -47,11 +47,7 @@ html {
   padding-bottom: 48px;
   max-width: 720px;
 }
-
-.button {
-  display: inline-block;
-  text-align: center;
-  padding-top: 16px;
+.top__btn {
   border: 1px solid #202027;
   border-radius: 60px;
   background: #202027;
@@ -61,15 +57,13 @@ html {
   font-weight: 600;
   font-size: 24px;
 }
-.button:hover {
+.top__btn:hover {
   background: transparent;
   color: #202027;
   border: 1px solid rgb(0, 0, 0);
 }
 
 .footer-top__nav {
-  display: flex;
-  gap: 51px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #BCEC30;
   height: 90px;
@@ -78,6 +72,11 @@ html {
   position: absolute;
   bottom: 0;
   padding: 27px;
+}
+.footer-top__nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 51px;
 }
 .footer-top__nav-link {
   color: rgb(32, 32, 39);
