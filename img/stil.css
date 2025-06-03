@@ -64,8 +64,6 @@ html {
 }
 
 .footer-top__nav {
-  display: flex;
-  gap: 51px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #BCEC30;
   height: 90px;
@@ -74,6 +72,11 @@ html {
   position: absolute;
   bottom: 0;
   padding: 27px;
+}
+.footer-top__nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 51px;
 }
 .footer-top__nav-link {
   color: rgb(32, 32, 39);
