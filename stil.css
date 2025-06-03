@@ -47,7 +47,11 @@ html {
   padding-bottom: 48px;
   max-width: 720px;
 }
-.top__btn {
+
+.button {
+  display: inline-block;
+  text-align: center;
+  padding-top: 16px;
   border: 1px solid #202027;
   border-radius: 60px;
   background: #202027;
@@ -57,7 +61,7 @@ html {
   font-weight: 600;
   font-size: 24px;
 }
-.top__btn:hover {
+.button:hover {
   background: transparent;
   color: #202027;
   border: 1px solid rgb(0, 0, 0);
