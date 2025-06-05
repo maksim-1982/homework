@@ -132,6 +132,7 @@ html {
   background-color: #ffffff;
   border-radius: 30px;
   transition: transform 0.3s ease;
+  overflow: hidden;
 }
 .game__card:hover {
   transform: scale(1.05);
@@ -214,6 +215,7 @@ html {
   border-radius: 30px;
   background-color: #ffffff;
   display: flex;
+  overflow: hidden;
 }
 .mini-games__card_revers {
   flex-direction: row-reverse;
