@@ -1,0 +1,46 @@
+@media( max-width: 425px) {
+ 
+ .center{
+    padding-left: 16px;
+    padding-right: 16px;
+ }
+
+ .top{
+    background-image: url(img/star\ mobil\ 1.svg),url(img/star\ mobil\ 2.svg),url(img/star\ mobil\ 3.svg),url(img/star\ mobil\ 4.svg),url(img/star\ mobil\ 5.svg);
+    background-repeat: no-repeat;
+    background-position: top -80px left 222px , top 64px left 91px, top 97px left 37px, bottom 125px right 86px, bottom 79px right 34px;
+
+    &__box{
+        width: 343px;
+    }
+
+    &__title{
+        width: 296px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    &__desc{
+        width: 296px;
+        font-size: 16px;
+    }
+ }
+
+ .footer-top{
+
+    &__nav{
+        height: 51px;
+        gap: 27px;
+        padding: 17px;
+    }
+
+    &__nav-link{
+        font-size: 16px;
+    }
+
+    &__icon{
+        width: 19px;
+        height: 19px;
+    }
+ }
+}
