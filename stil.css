@@ -80,7 +80,7 @@ html {
   width: -moz-max-content;
   width: max-content;
   position: absolute;
-  bottom: 0;
+  top: 800px;
   padding: 27px;
 }
 .footer-top__nav-link {
@@ -225,17 +225,6 @@ html {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
-.mini-games__content {
-  position: relative;
-}
-.mini-games__img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 128px;
-  height: 141px;
-}
 .mini-games-box {
   padding-left: 48px;
   padding-top: 48px;
@@ -277,6 +266,7 @@ html {
     padding-right: 16px;
   }
   .top {
+    height: 700px;
     background-image: url(img/star\ mobil\ 1.svg), url(img/star\ mobil\ 2.svg), url(img/star\ mobil\ 3.svg), url(img/star\ mobil\ 4.svg), url(img/star\ mobil\ 5.svg);
     background-repeat: no-repeat;
     background-position: top -80px left 222px, top 64px left 91px, top 97px left 37px, bottom 125px right 86px, bottom 79px right 34px;
@@ -306,6 +296,7 @@ html {
     height: 51px;
     gap: 27px;
     padding: 17px;
+    top: 700px;
   }
   .footer-top__nav-link {
     font-size: 16px;
@@ -314,11 +305,36 @@ html {
     width: 19px;
     height: 19px;
   }
+  .game {
+    display: none;
+  }
+  .mini-games__img {
+    width: 343px;
+    height: 285px;
+  }
   .mini-games__title {
     font-size: 32px;
   }
   .mini-games__text {
     font-size: 16px;
     line-height: 20px;
+  }
+  .card-games1 {
+    height: 528px;
+  }
+  .card-games2 {
+    height: 568px;
+  }
+  .card-games3 {
+    height: 568px;
+  }
+  .card-games4 {
+    height: 528px;
+  }
+  .card-games5 {
+    height: 606px;
+  }
+  .card-games6 {
+    height: 627px;
   }
 }/*# sourceMappingURL=stil.css.map */

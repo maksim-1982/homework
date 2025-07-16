@@ -6,6 +6,7 @@
  }
 
  .top{
+    height: 700px;
     background-image: url(img/star\ mobil\ 1.svg),url(img/star\ mobil\ 2.svg),url(img/star\ mobil\ 3.svg),url(img/star\ mobil\ 4.svg),url(img/star\ mobil\ 5.svg);
     background-repeat: no-repeat;
     background-position: top -80px left 222px , top 64px left 91px, top 97px left 37px, bottom 125px right 86px, bottom 79px right 34px;
@@ -43,6 +44,7 @@
         height: 51px;
         gap: 27px;
         padding: 17px;
+        top: 700px;
     }
 
     &__nav-link{
@@ -55,10 +57,15 @@
     }
  }
 
+ .game{
+    display: none;
+ }
+
  .mini-games{
 
-    &__card{
-        
+    &__img{
+        width: 343px;
+        height: 285px;
     }
 
     &__title{
@@ -69,5 +76,29 @@
         font-size: 16px;
         line-height: 20px;
     }
+ }
+
+ .card-games1{
+    height: 528px;
+ }
+
+ .card-games2{
+    height: 568px;
+ }
+
+ .card-games3{
+    height: 568px;
+ }
+
+ .card-games4{
+    height: 528px;
+ }
+
+ .card-games5{
+    height: 606px;
+ }
+
+ .card-games6{
+    height: 627px;
  }
 }
